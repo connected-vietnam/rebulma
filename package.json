@@ -2,8 +2,8 @@
   "name": "rebulma",
   "version": "0.4.1",
   "description": "",
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -57,11 +57,11 @@
     "typescript": "^3.5.2"
   },
   "peerDependencies": {
+    "bulma": ">=0.7.5",
     "react": ">=16.8",
     "react-dom": ">=16.8"
   },
   "dependencies": {
-    "bulma": "^0.7.5",
     "classnames": "^2.2.6"
   },
   "prettier": {
