@@ -13,6 +13,7 @@
     "lint": "eslint 'src/**/*.tsx' 'stories/**/*.tsx'",
     "test": "jest",
     "predist": "npm run clean",
+    "prepublish": "npm run dist",
     "watch": "tsc -p tsconfig.json --watch",
     "storybook": "start-storybook --ci -p 6006",
     "build-storybook": "build-storybook"
